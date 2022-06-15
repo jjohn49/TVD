@@ -5,6 +5,7 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <!--Need to add more router links to the different pages -->
   </nav>
   <router-view/>
 </template>
@@ -16,6 +17,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+body{
+  background: black;
 }
 
 #logo img{
