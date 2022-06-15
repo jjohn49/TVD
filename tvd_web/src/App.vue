@@ -1,10 +1,12 @@
 <template>
   <div id = "logo">
-  <img src = "../src/assets/tvd_logo.png">
+    <img src = "../src/assets/tvd_logo.png">
   </div>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
+    <router-link to="/services">Services</router-link>
+    <router-link to="/contact">Contact</router-link>
     <!--Need to add more router links to the different pages -->
   </nav>
   <router-view/>
@@ -33,8 +35,10 @@ nav {
 }
 
 nav a {
+  font-size: 150%;
   font-weight: bold;
-  color: #2c3e50;
+  padding: 1em;
+  color:rgba(255, 228, 196, 0.822);
 }
 
 nav a.router-link-exact-active {
